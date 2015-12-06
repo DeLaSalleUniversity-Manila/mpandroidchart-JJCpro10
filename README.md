@@ -204,3 +204,115 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 **Special thanks** to [danielgindi](https://github.com/danielgindi), [mikegr](https://github.com/mikegr), [ph1lb4](https://github.com/ph1lb4) and [jitpack.io](https://github.com/jitpack-io) for their contributions to this project.
+
+
+## This fork
+
+### Videocapture
+
+https://youtu.be/-FnipAgXKuY
+
+### Clone
+
+```shell
+$ git clone https://github.com/DeLaSalleUniversity-Manila/MPAndroidChart
+Cloning into 'MPAndroidChart'...
+remote: Counting objects: 15458, done.
+remote: Total 15458 (delta 0), reused 0 (delta 0), pack-reused 15458
+Receiving objects: 100% (15458/15458), 17.27 MiB | 81 KiB/s, done.
+Resolving deltas: 100% (9063/9063), done.
+```
+
+### To submit
+
+https://classroom.github.com/assignment-invitations/7ca276078b219a9841f3b0ad7ce45f0a
+
+
+### Build
+
+```shell
+$ ./gradlew installDebug
+Downloading https://services.gradle.org/distributions/gradle-2.9-bin.zip
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /home/cobalt/.gradle/wrapper/dists/gradle-2.9-bin/ebaspjjvvkuki3ldbldx7hexd/gradle-2.9-bin.zip to /home/cobalt/.gradle/wrapper/dists/gradle-2.9-bin/ebaspjjvvkuki3ldbldx7hexd
+Set executable permissions for: /home/cobalt/.gradle/wrapper/dists/gradle-2.9-bin/ebaspjjvvkuki3ldbldx7hexd/gradle-2.9/bin/gradle
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/1.5.0/gradle-1.5.0.pom
+Download https://jcenter.bintray.com/com/github/dcendents/android-maven-gradle-plugin/1.3/android-maven-gradle-plugin-1.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/1.5.0/gradle-1.5.0.jar
+Download https://jcenter.bintray.com/com/github/dcendents/android-maven-gradle-plugin/1.3/android-maven-gradle-plugin-1.3.jar
+
+:MPChartExample:preBuild UP-TO-DATE
+:MPChartExample:preDebugBuild UP-TO-DATE
+:MPChartExample:checkDebugManifest
+:MPChartExample:preReleaseBuild UP-TO-DATE
+:MPChartLib:preBuild UP-TO-DATE
+:MPChartLib:preReleaseBuild UP-TO-DATE
+:MPChartLib:compileReleaseNdk UP-TO-DATE
+:MPChartLib:compileLint
+:MPChartLib:copyReleaseLint UP-TO-DATE
+:MPChartLib:mergeReleaseProguardFiles
+:MPChartLib:packageReleaseRenderscript UP-TO-DATE
+:MPChartLib:checkReleaseManifest
+:MPChartLib:prepareReleaseDependencies
+:MPChartLib:compileReleaseRenderscript
+:MPChartLib:generateReleaseResValues
+:MPChartLib:generateReleaseResources
+:MPChartLib:packageReleaseResources
+:MPChartLib:compileReleaseAidl
+:MPChartLib:generateReleaseBuildConfig
+:MPChartLib:generateReleaseAssets UP-TO-DATE
+:MPChartLib:mergeReleaseAssets
+:MPChartLib:processReleaseManifest
+:MPChartLib:processReleaseResources
+:MPChartLib:generateReleaseSources
+:MPChartLib:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/cobalt/AndroidStudioProjects/MPAndroidChart/MPChartLib/src/com/github/mikephil/charting/charts/BarLineChartBase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:MPChartLib:processReleaseJavaRes UP-TO-DATE
+:MPChartLib:transformResourcesWithMergeJavaResForRelease
+:MPChartLib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:MPChartLib:mergeReleaseJniLibFolders
+:MPChartLib:transformNative_libsWithMergeJniLibsForRelease
+:MPChartLib:transformNative_libsWithSyncJniLibsForRelease
+:MPChartLib:bundleRelease
+:MPChartExample:prepareComAndroidSupportAppcompatV72311Library
+:MPChartExample:prepareComAndroidSupportSupportV42311Library
+:MPChartExample:prepareMPAndroidChartMPChartLibUnspecifiedLibrary
+:MPChartExample:prepareDebugDependencies
+:MPChartExample:compileDebugAidl
+:MPChartExample:compileDebugRenderscript
+:MPChartExample:generateDebugBuildConfig
+:MPChartExample:generateDebugAssets UP-TO-DATE
+:MPChartExample:mergeDebugAssets
+:MPChartExample:generateDebugResValues
+:MPChartExample:generateDebugResources
+:MPChartExample:mergeDebugResources
+AAPT: /home/cobalt/AndroidStudioProjects/MPAndroidChart/MPChartExample/res/drawable-nodpi/marker2.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /home/cobalt/AndroidStudioProjects/MPAndroidChart/MPChartExample/res/drawable-nodpi/marker.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:MPChartExample:processDebugManifest
+:MPChartExample:processDebugResources
+:MPChartExample:generateDebugSources
+:MPChartExample:compileDebugJavaWithJavac
+:MPChartExample:compileDebugNdk UP-TO-DATE
+:MPChartExample:compileDebugSources
+:MPChartExample:transformClassesWithDexForDebug
+:MPChartExample:mergeDebugJniLibFolders
+:MPChartExample:transformNative_libsWithMergeJniLibsForDebug
+:MPChartExample:processDebugJavaRes UP-TO-DATE
+:MPChartExample:transformResourcesWithMergeJavaResForDebug
+:MPChartExample:validateDebugSigning
+:MPChartExample:packageDebug
+:MPChartExample:zipalignDebug
+:MPChartExample:assembleDebug
+:MPChartExample:installDebug
+Installing APK 'MPChartExample-debug.apk' on 'X330 - 4.4.4' for MPChartExample:debug
+Installed on 1 device.
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 58.28 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.9/userguide/gradle_daemon.html
+```
